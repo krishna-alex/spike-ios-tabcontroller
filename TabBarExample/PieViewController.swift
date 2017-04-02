@@ -8,12 +8,12 @@
 
 import UIKit
 
-class PieViewController: MyViewController {
+class PieViewController: FoodViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        foodItem.text = "Pie"
     }
 
     override func didReceiveMemoryWarning() {

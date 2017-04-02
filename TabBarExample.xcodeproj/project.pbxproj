@@ -12,10 +12,10 @@
 		6B1201C61E91004A00D16DF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1201C41E91004A00D16DF0 /* Main.storyboard */; };
 		6B1201C81E91004A00D16DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1201C71E91004A00D16DF0 /* Assets.xcassets */; };
 		6B1201CB1E91004A00D16DF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1201C91E91004A00D16DF0 /* LaunchScreen.storyboard */; };
-		6B1201D41E91010100D16DF0 /* PieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1201D21E91010100D16DF0 /* PieViewController.swift */; };
-		6B1201D51E91010100D16DF0 /* PieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B1201D31E91010100D16DF0 /* PieViewController.xib */; };
-		6B1201D81E91011600D16DF0 /* PizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1201D61E91011600D16DF0 /* PizzaViewController.swift */; };
-		6B1201D91E91011600D16DF0 /* PizzaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B1201D71E91011600D16DF0 /* PizzaViewController.xib */; };
+		6B1201D41E91010100D16DF0 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1201D21E91010100D16DF0 /* FoodViewController.swift */; };
+		6B1201D51E91010100D16DF0 /* FoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B1201D31E91010100D16DF0 /* FoodViewController.xib */; };
+		6B2B50531E917C400000B1F3 /* PieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2B50521E917C400000B1F3 /* PieViewController.swift */; };
+		6B2B50551E917C650000B1F3 /* PizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2B50541E917C650000B1F3 /* PizzaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +26,10 @@
 		6B1201C71E91004A00D16DF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B1201CA1E91004A00D16DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B1201CC1E91004A00D16DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B1201D21E91010100D16DF0 /* PieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieViewController.swift; sourceTree = "<group>"; };
-		6B1201D31E91010100D16DF0 /* PieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PieViewController.xib; sourceTree = "<group>"; };
-		6B1201D61E91011600D16DF0 /* PizzaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaViewController.swift; sourceTree = "<group>"; };
-		6B1201D71E91011600D16DF0 /* PizzaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PizzaViewController.xib; sourceTree = "<group>"; };
+		6B1201D21E91010100D16DF0 /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		6B1201D31E91010100D16DF0 /* FoodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodViewController.xib; sourceTree = "<group>"; };
+		6B2B50521E917C400000B1F3 /* PieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieViewController.swift; sourceTree = "<group>"; };
+		6B2B50541E917C650000B1F3 /* PizzaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +68,10 @@
 				6B1201C71E91004A00D16DF0 /* Assets.xcassets */,
 				6B1201C91E91004A00D16DF0 /* LaunchScreen.storyboard */,
 				6B1201CC1E91004A00D16DF0 /* Info.plist */,
-				6B1201D21E91010100D16DF0 /* PieViewController.swift */,
-				6B1201D31E91010100D16DF0 /* PieViewController.xib */,
-				6B1201D61E91011600D16DF0 /* PizzaViewController.swift */,
-				6B1201D71E91011600D16DF0 /* PizzaViewController.xib */,
+				6B1201D21E91010100D16DF0 /* FoodViewController.swift */,
+				6B1201D31E91010100D16DF0 /* FoodViewController.xib */,
+				6B2B50521E917C400000B1F3 /* PieViewController.swift */,
+				6B2B50541E917C650000B1F3 /* PizzaViewController.swift */,
 			);
 			path = TabBarExample;
 			sourceTree = "<group>";
@@ -135,11 +135,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B1201D91E91011600D16DF0 /* PizzaViewController.xib in Resources */,
 				6B1201CB1E91004A00D16DF0 /* LaunchScreen.storyboard in Resources */,
 				6B1201C81E91004A00D16DF0 /* Assets.xcassets in Resources */,
 				6B1201C61E91004A00D16DF0 /* Main.storyboard in Resources */,
-				6B1201D51E91010100D16DF0 /* PieViewController.xib in Resources */,
+				6B1201D51E91010100D16DF0 /* FoodViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,10 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B1201D41E91010100D16DF0 /* PieViewController.swift in Sources */,
-				6B1201D81E91011600D16DF0 /* PizzaViewController.swift in Sources */,
+				6B2B50551E917C650000B1F3 /* PizzaViewController.swift in Sources */,
+				6B1201D41E91010100D16DF0 /* FoodViewController.swift in Sources */,
 				6B1201C31E91004A00D16DF0 /* MyViewController.swift in Sources */,
 				6B1201C11E91004A00D16DF0 /* AppDelegate.swift in Sources */,
+				6B2B50531E917C400000B1F3 /* PieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +313,7 @@
 				6B1201D11E91004A00D16DF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

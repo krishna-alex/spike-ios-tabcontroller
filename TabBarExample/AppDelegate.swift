@@ -18,12 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let tabBarController = UITabBarController()
         let tabViewController1 = PieViewController(
-            nibName: "PieViewController",
+            nibName: "FoodViewController",
             bundle: nil)
         let tabViewController2 = PizzaViewController(
-            nibName:"PizzaViewController",
+            nibName:"FoodViewController",
             bundle: nil)
-        
         let controllers = [tabViewController1,tabViewController2]
         tabBarController.viewControllers = controllers
         window?.rootViewController = tabBarController

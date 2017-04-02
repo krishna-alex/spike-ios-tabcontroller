@@ -1,5 +1,5 @@
 //
-//  PizzaViewController.swift
+//  FoodViewController.swift
 //  TabBarExample
 //
 //  Created by Krishna Alex on 4/2/17.
@@ -8,14 +8,14 @@
 
 import UIKit
 
-class PizzaViewController: FoodViewController {
+class FoodViewController: MyViewController {
 
+    @IBOutlet weak var foodItem: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        foodItem.text = "Pizza"
     }
 
     override func didReceiveMemoryWarning() {
