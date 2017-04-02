@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		6B1201C11E91004A00D16DF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1201C01E91004A00D16DF0 /* AppDelegate.swift */; };
-		6B1201C31E91004A00D16DF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1201C21E91004A00D16DF0 /* ViewController.swift */; };
+		6B1201C31E91004A00D16DF0 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1201C21E91004A00D16DF0 /* MyViewController.swift */; };
 		6B1201C61E91004A00D16DF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1201C41E91004A00D16DF0 /* Main.storyboard */; };
 		6B1201C81E91004A00D16DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1201C71E91004A00D16DF0 /* Assets.xcassets */; };
 		6B1201CB1E91004A00D16DF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1201C91E91004A00D16DF0 /* LaunchScreen.storyboard */; };
+		6B1201D41E91010100D16DF0 /* PieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1201D21E91010100D16DF0 /* PieViewController.swift */; };
+		6B1201D51E91010100D16DF0 /* PieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B1201D31E91010100D16DF0 /* PieViewController.xib */; };
+		6B1201D81E91011600D16DF0 /* PizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1201D61E91011600D16DF0 /* PizzaViewController.swift */; };
+		6B1201D91E91011600D16DF0 /* PizzaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B1201D71E91011600D16DF0 /* PizzaViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B1201BD1E91004A00D16DF0 /* TabBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1201C01E91004A00D16DF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6B1201C21E91004A00D16DF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B1201C21E91004A00D16DF0 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		6B1201C51E91004A00D16DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B1201C71E91004A00D16DF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B1201CA1E91004A00D16DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B1201CC1E91004A00D16DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B1201D21E91010100D16DF0 /* PieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieViewController.swift; sourceTree = "<group>"; };
+		6B1201D31E91010100D16DF0 /* PieViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PieViewController.xib; sourceTree = "<group>"; };
+		6B1201D61E91011600D16DF0 /* PizzaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaViewController.swift; sourceTree = "<group>"; };
+		6B1201D71E91011600D16DF0 /* PizzaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PizzaViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				6B1201C01E91004A00D16DF0 /* AppDelegate.swift */,
-				6B1201C21E91004A00D16DF0 /* ViewController.swift */,
+				6B1201C21E91004A00D16DF0 /* MyViewController.swift */,
 				6B1201C41E91004A00D16DF0 /* Main.storyboard */,
 				6B1201C71E91004A00D16DF0 /* Assets.xcassets */,
 				6B1201C91E91004A00D16DF0 /* LaunchScreen.storyboard */,
 				6B1201CC1E91004A00D16DF0 /* Info.plist */,
+				6B1201D21E91010100D16DF0 /* PieViewController.swift */,
+				6B1201D31E91010100D16DF0 /* PieViewController.xib */,
+				6B1201D61E91011600D16DF0 /* PizzaViewController.swift */,
+				6B1201D71E91011600D16DF0 /* PizzaViewController.xib */,
 			);
 			path = TabBarExample;
 			sourceTree = "<group>";
@@ -123,9 +135,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1201D91E91011600D16DF0 /* PizzaViewController.xib in Resources */,
 				6B1201CB1E91004A00D16DF0 /* LaunchScreen.storyboard in Resources */,
 				6B1201C81E91004A00D16DF0 /* Assets.xcassets in Resources */,
 				6B1201C61E91004A00D16DF0 /* Main.storyboard in Resources */,
+				6B1201D51E91010100D16DF0 /* PieViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B1201C31E91004A00D16DF0 /* ViewController.swift in Sources */,
+				6B1201D41E91010100D16DF0 /* PieViewController.swift in Sources */,
+				6B1201D81E91011600D16DF0 /* PizzaViewController.swift in Sources */,
+				6B1201C31E91004A00D16DF0 /* MyViewController.swift in Sources */,
 				6B1201C11E91004A00D16DF0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

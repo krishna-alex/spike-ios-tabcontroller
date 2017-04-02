@@ -16,6 +16,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let tabBarController = UITabBarController()
+        let tabViewController1 = PieViewController(
+            nibName: "PieViewController",
+            bundle: nil)
+        let tabViewController2 = PizzaViewController(
+            nibName:"PizzaViewController",
+            bundle: nil)
+        
+        let controllers = [tabViewController1,tabViewController2]
+        tabBarController.viewControllers = controllers
+        window?.rootViewController = tabBarController
+        
+        tabViewController1.tabBarItem = UITabBarItem(
+            title: "Pie",
+            image: UIImage(named: "Rating"),
+            tag: 1)
+        tabViewController2.tabBarItem = UITabBarItem(
+            title: "Pizza",
+            image:UIImage(named: "star") ,
+            tag:2)
+        
         return true
     }
 
